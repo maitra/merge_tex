@@ -1,7 +1,6 @@
-To use with latex diff,
+Python code to merge multiple .tex files. All comments are preserved.
 
-use the following command line with two self constained latex files 
-(condensed into a single one using merge_tex.py) and the pre-diff.tex file
-from the repo
+Usage: 
 
-latexdiff -p diff-pre.tex --type=CCHANGEBAR --append-safecmd="nu.*,v.*,such.*{,}" --exclude-safecmd="in" old.tex new.tex > diff.tex
+python merge_tex calling-files.tex output.tex
+
