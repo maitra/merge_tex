@@ -3,7 +3,7 @@
 # original from https://github.com/stonneau/merge_tex
 # usage python merge_tex.py inFile.tex outFile.tex
 #
-# modified to accept (and ignore commented lines)
+# modified to accept (and ignore) commented lines in text
 
 
 import re, sys
